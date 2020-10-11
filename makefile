@@ -8,3 +8,4 @@ server:
 	go run run/server/main.go -port 9090
 test:
 	go test -cover -race ./...
+	
