@@ -1,0 +1,16 @@
+syntax="proto3";
+
+package golang_grpc_unary_stream.plant;
+
+import "category_message.proto";
+
+option go_package = "pb";
+
+message Plant{
+    string id = 1;
+    string name = 2;
+    Category category = 3;
+    float price = 4;
+    string avatar = 5;
+    string description = 6;
+}
