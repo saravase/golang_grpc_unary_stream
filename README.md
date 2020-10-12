@@ -23,7 +23,7 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 #### Make proto file:
     proto/sample.proto
 
-#### Initialize protobuf generate make command:
+#### Generate protobuf:
     gen:
 	protoc --proto_path=proto/ proto/*.proto --go_out=plugins=grpc:pb
 
